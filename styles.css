@@ -1,0 +1,12 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+/* h1 {
+    text-align: center;
+} */
+#break, #sessionLength {
+    background-color: black;
+    color: antiquewhite;
+}
