@@ -1,4 +1,6 @@
-class CountDownTimer {
+define(function () {
+
+return class CountDownTimer {
 
 // Constructor Function
 constructor(duration, granularity) {
@@ -74,4 +76,4 @@ constructor(duration, granularity) {
 
 }
 
-export default CountDownTimer;
+});
