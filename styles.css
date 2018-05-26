@@ -1,12 +1,34 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
+    background-color: rgb(38, 105, 214);
+    color: white;
 }
 
-/* h1 {
-    text-align: center;
-} */
-#break, #sessionLength {
-    background-color: black;
-    color: antiquewhite;
+button {
+    color: white; 
+    background: transparent; 
+    border: 1px solid #0099CC; 
+    border-radius: 6px;
+    margin-bottom: 2%;    
+}
+
+p, a {
+    color: white;
+    font-size: .8em;
+}
+#sessionDisplay {
+    margin: 0 auto;
+    background-image: url(https://source.unsplash.com/1_CMoFsPfso/250x250);
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+    border: 1px solid white;
+}
+
+#timerType {
+    margin-top: 10%;
+}
+#countDown {
+    margin-top: 35%;
 }

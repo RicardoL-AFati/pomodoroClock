@@ -37,7 +37,7 @@ constructor(duration, granularity) {
         that.running = false;
       }
       // creates timer object using parse(diff)
-      obj = CountDownTimer.parse(diff);
+      obj = that.parse(diff);
       // that (countDownTimer) - for each function on it's tickFtns array ->
       that.tickFtns.forEach(function(ftn) {
         // Call current function on this timer using obj.minutes and obj.seconds as arguments
